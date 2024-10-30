@@ -18,6 +18,7 @@ body {
 /* Estilos para la sección hero */
 .hero {
     background-image: url(/assets/body.jpg);
+    background-size: cover;
     height: 90vh;
 }
 
