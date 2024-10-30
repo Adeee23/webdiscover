@@ -1,164 +1,269 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <!--Enlace a Bootstrap-->
+    <!--ENLACE A BOOTSTRAP-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
-    />
-    <!--Enlace a css-->
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <!--Enlace a favicon-->
-    <link rel="icon" href="./assets/avion.png" />
+    >
+    <!--ENLACE A CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--ENLACE A FAVICÓN-->
+    <link rel="icon" href="./assets/avion.png">
   </head>
   <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/avion.png" alt=""></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/views/galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/views/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="hero d-flex justify-content-center align-items-center">
-      <h2>Bienvenidos a Discover</h2>
-    </section>
-    <section class="carrusel">
-      <h2>Nuestras imágenes</h2>
-      <div class="imagenes">
-        <a><img src="/assets/1.jpg" width="300" height="200" alt=""></a>
-        <a><img src="/assets/2.jpg" width="300" height="200" alt=""></a>
-        <a><img src="/assets/3.jpg" width="300" height="200" alt=""></a>
-        <a><img src="/assets/4.jpg" width="300" height="200" alt=""></a>
-        <a><img src="/assets/5.jpg" width="300" height="200" alt=""></a>
-        <a><img src="/assets/6.jpg" width="300" height="200" alt=""></a>
-      </div>
-    </section>
-    <div id="viaja">
-       <h2>Viaja con nosotros</h2>
-    <section class="container">
-      <div class="row-a mt-5">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./assets/asturias.jpg" class="card-img-top" alt="asturias">
-            <div class="card-body">
-              <h5 class="card-title">ASTURIAS</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://www.turismoasturias.es/" class="btn btn-primary">Más información</a>
-            </div>
+      <!--BARRA DE NAVEGACIÓN-->
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/avion.png" alt=""
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/views/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/views/contacto.html">Contacto</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./assets/copenhague.jpg" class="card-img-top" alt="copenhague">
-            <div class="card-body">
-              <h5 class="card-title">COPENHAGUE</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://www.disfrutacopenhague.com/" class="btn btn-primary">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./assets/santorini.jpg" class="card-img-top" alt="santorini">
-            <div class="card-body">
-              <h5 class="card-title">SANTORINI</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://www.grecia.info/es/islas-cicladas/santorini/" class="btn btn-primary">Más información</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="./assets/new-york.jpg" class="card-img-top" alt="new-york">
-            <div class="card-body">
-              <h5 class="card-title">NEW YORK</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://viajes.nationalgeographic.com.es/c/nueva-york" class="btn btn-primary">Más información</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-        
-    </section>
-    
-  </main>
-        <!--footer-->
-        <footer>
-          <div class="container">
-            <div class="copyright">
-              <p>&copy; DISCOVER!2024</p>
-            </div>
-            <!--ENLACES A REDES SOCIALES-->
-            <div class="social-media">
-              <a href="https://www.instagram.com/" target="_blank">
-                <img
-                  src="../assets/instagram.svg"
-                  width="40"
-                  height="40"
-                  alt="instagram"
-              ></a>
-              <a
-                href="https://www.facebook.com/login/?locale=es_ES"
-                target="_blank"
-              >
-                <img
-                  src="../assets/facebook.svg"
-                  width="40"
-                  height="40"
-                  alt="facebook"
-              ></a>
-              <a href="https://twitter.com/i/flow/login" target="_blank">
-                <img
-                  src="../assets/twitter.svg"
-                  width="40"
-                  height="40"
-                  alt="twitter"
-              ></a>
-            </div>
-            <!--AVISO LEGAL-->
-            <div class="aviso-legal">
-              <p><strong> Aviso Legal </strong></p>
-              <p>
-                En cumplimiento con el deber de información recogido en el artículo
-                10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de
-                la Información y del Comercio Electrónico, se informa a los usuarios
-                del presente sitio web que la titularidad es de la web DISCOVER!
-              </p>
-            </div>
-          </div>
-        </footer>
+      </nav>
+    </header>
+    <main>
+      <!--SECCIÓN DE IMÁGENES-->
+      <section
+        class="hero d-flex justify-content-center align-items-center bg-primary text-white p-5"
+      >
+        <h2>Bienvenidos a Discover</h2>
+      </section>
 
+      <section class="carrusel">
+        <h2>Nuestras imágenes</h2>
+        <div class="container">
+          <div class="row mt-5">
+            <img
+              class="col-md-4"
+              src="/assets/1.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+            <img
+              class="col-md-4"
+              src="/assets/2.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+            <img
+              class="col-md-4"
+              src="/assets/3.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+          </div>
+          <div class="row mt-5">
+            <img
+              class="col-md-4"
+              src="/assets/4.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+            <img
+              class="col-md-4"
+              src="/assets/5.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+            <img
+              class="col-md-4"
+              src="/assets/6.jpg"
+              width="300"
+              height="200"
+              alt=""
+            >
+          </div>
+        </div>
+      </section>
+      <!--SECCIÓN DE TARJETAS-->
+      <div id="viaja">
+        <h2>Viaja con nosotros</h2>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="./assets/asturias.jpg"
+                  class="card-img-top"
+                  alt="asturias"
+                >
+                <div class="card-body">
+                  <h5 class="card-title">ASTURIAS</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://www.turismoasturias.es/"
+                    class="btn btn-primary"
+                    >Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="./assets/copenhague.jpg"
+                  class="card-img-top"
+                  alt="copenhague"
+                >
+                <div class="card-body">
+                  <h5 class="card-title">COPENHAGUE</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://www.disfrutacopenhague.com/"
+                    class="btn btn-primary"
+                    >Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="./assets/santorini.jpg"
+                  class="card-img-top"
+                  alt="santorini"
+                >
+                <div class="card-body">
+                  <h5 class="card-title">SANTORINI</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://www.grecia.info/es/islas-cicladas/santorini/"
+                    class="btn btn-primary"
+                    >Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="./assets/new-york.jpg"
+                  class="card-img-top"
+                  alt="new-york"
+                >
+                <div class="card-body">
+                  <h5 class="card-title">NEW YORK</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://viajes.nationalgeographic.com.es/c/nueva-york"
+                    class="btn btn-primary"
+                    >Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <div class="container">
+        <!--INFORMACIÓN Y AVISO LEGAL-->
+        <div class="copyright">
+          <p>&copy; DISCOVER!2024</p>
+          <p>
+            <strong>Teléfono:</strong> 964716126
+            <strong>Email:</strong> discover@23gmail.es
+            <strong>Dirección:</strong> Toledo
+          </p>
+        </div>
+        <div class="aviso-legal">
+          <p><strong> Aviso Legal </strong></p>
+          <p>
+            En cumplimiento con el deber de información recogido en el artículo
+            10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de
+            la Información y del Comercio Electrónico, se informa a los usuarios
+            del presente sitio web que la titularidad es de la web DISCOVER!
+          </p>
+        </div>
+        <!--MENÚ FOOTER-->
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="/views/galeria.html">Galería</a></li>
+            <li><a href="/views/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <!--ENLACES A REDES SOCIALES-->
+        <div class="social-media">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../assets/instagram.svg"
+              width="40"
+              height="40"
+              alt="instagram"
+          ></a>
+          <a
+            href="https://www.facebook.com/login/?locale=es_ES"
+            target="_blank"
+          >
+            <img
+              src="../assets/facebook.svg"
+              width="40"
+              height="40"
+              alt="facebook"
+          ></a>
+          <a href="https://twitter.com/i/flow/login" target="_blank">
+            <img
+              src="../assets/twitter.svg"
+              width="40"
+              height="40"
+              alt="twitter"
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!--ENLACE A SCRIPT BOOTSRAP-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

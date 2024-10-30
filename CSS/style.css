@@ -1,27 +1,33 @@
+/* Selección de todos los elementos para aplicar estilos básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos para el cuerpo del documento */
 body {
     background-color: rgba(78, 134, 156, 0.842);
 }
 
+/* Estilos para las imágenes en el contenedor fluid */
 .container-fluid img {
     width: 30px;
 }
 
+/* Estilos para la sección hero */
 .hero {
     background-image: url(/assets/body.jpg);
     height: 90vh;
 }
 
+/* Estilos para el título en la sección hero */
 .hero h2 {
     color: black;
     transform: translateY(-350%);
 }
 
+/* Estilos para los contenedores con clase 'cold' */
 .container cold {
     justify-content: space-between;
     text-align: center;
@@ -29,54 +35,94 @@ body {
     padding-top: 30px;
 }
 
+/* Estilos para el título en la sección 'viaja' */
 #viaja h2 {
+    background-color: rgba(79, 136, 158, 0.842);
     color: black;
     padding: 15px;
     text-align: center;
-    margin: 20px;
+    margin-top: 30px;
 }
 
+/* Estilos para los títulos en contenedores */
 .container h2 {
+    color: black;
     text-align: right;
     position: relative;
-    top: -133px;
+    top: -25px;
     margin: 10px;
 }
 
+/* Estilos para la sección carrusel */
 .carrusel {
     text-align: center;
 }
 
+/* Estilos para el título en la sección carrusel */
 .carrusel h2 {
+    background-color: rgba(79, 136, 158, 0.842);
     color: black;
     padding: 15px;
     text-align: center;
 }
 
+/* Estilos para la clase 'imagenes' */
 .imagenes {
     padding-top: 16px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px
+    gap: 40px;
 }
 
+/* Estilos para el pie de página */
 footer {
     margin: 25px;
     display: flex;
     background-color: rgba(79, 136, 158, 0.842);
-    padding-top: 50px;
+    padding-top: 30px;
     color: black;
     text-align: center;
 }
 
+/* Estilos para el menú en el pie de página */
+.menu {
+    margin-left: -25px;
+}
+
+/* Estilos para los elementos de lista en el menú */
+.menu li {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para los enlaces del menú */
+.menu a {
+    background-color: rgba(69, 135, 161, 0.842);
+    text-decoration: none;
+    color: rgb(10, 32, 129);
+}
+
+/* Estilos para los enlaces del menú al pasar el cursor */
+.menu a:hover {
+    color: wheat;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-media {
+    margin: 15px;
+}
+
+/* Estilos para el contenedor del pie de página */
 .footer-container {
     padding: 5px 10px;
 }
 
+/* Estilos para el aviso legal */
 .aviso-legal {
     color: black;
 }
 
+/* Estilos para los formularios */
 .formulario {
     width: 100%;
     padding: 20px; 
@@ -84,6 +130,7 @@ footer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos para los títulos */
 h2 {
     text-align: center; 
     color: wheat; 
@@ -91,11 +138,13 @@ h2 {
     font-family: 'Arial', sans-serif;
 }
 
+/* Estilos para las etiquetas */
 label {
     font-weight: bold; 
     color: wheat;
 }
 
+/* Estilos para los campos de texto, teléfono y correo electrónico */
 input[type="text"],
 input[type="tel"],
 input[type="email"] {
@@ -108,17 +157,20 @@ input[type="email"] {
     transition: border-color 0.3s ease; 
 }
 
+/* Estilos para los mensajes de error */
 .errors {
     color: red; 
     font-size: 14px; 
 }
 
+/* Estilos para el botón de formulario */
 #button-f {
     display: flex; 
     justify-content: space-between; 
     margin-top: 20px;
 }
 
+/* Estilos para los botones */
 button {
     padding: 10px 15px; 
     font-size: 16px; 
@@ -130,34 +182,57 @@ button {
     transition: background-color 0.3s ease; 
 }
 
+/* Estilos para los botones al pasar el cursor */
 button:hover {
     background-color: #0056b3; 
 }
 
+/* Estilos para el botón de restablecimiento */
 button[type="reset"] {
     background-color: #6c757d; 
 }
 
+/* Estilos para el botón de restablecimiento al pasar el cursor */
 button[type="reset"]:hover {
     background-color: #5a6268; 
 }
 
+/* Estilos para la fila de elementos con clase 'row-a' */
 .row-a {
-    width: 70%;
+    width: 68%;
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-around;
-    gap: 20px; 
+    gap: 33px; 
 }
 
+/* Estilos para la ruta */
 .ruta {
-    margin: 20px;
+    margin: 23px;
+    display: grid;
 }
 
+/* Estilos para la sección de ubicación */
 .ubicacion h2 {
     background-color: black;
 }
 
+/* Estilos para las etiquetas en la ruta */
 .ruta label {
     color: black;
+}
+
+/* Estilos para el mapa */
+#mapa {
+    display: flex;
+    justify-content: center; 
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 800px; 
+    height: 400px; 
+}
+
+/* Estilos para el contenedor de Leaflet */
+.leaflet-control-container {
+    display: none;
 }
