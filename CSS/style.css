@@ -92,7 +92,11 @@ footer {
 
 /* Estilos para el menú en el pie de página */
 .menu {
-    margin-left: -25px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px; 
+    font-size: 25px;
+    gap: 20px;
 }
 
 /* Estilos para los elementos de lista en el menú */
@@ -242,3 +246,15 @@ button[type="reset"]:hover {
 .leaflet-control-container {
     display: none;
 }
+
+/* Estilos para elemento Bootstrap */
+.opacity {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    writing-mode: vertical;
+    text-orientation: upright;
+    letter-spacing: 10px; 
+    color: wheat;
+    font-size: 25px;
+  }
