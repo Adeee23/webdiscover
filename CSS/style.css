@@ -10,6 +10,11 @@ body {
     background-color: rgba(78, 134, 156, 0.842);
 }
 
+h1 {
+    background-color: rgba(160, 183, 192, 0.842);
+    color: black;
+}
+
 /* Estilos para las imágenes en el contenedor fluid */
 .container-fluid img {
     width: 30px;
