@@ -92,7 +92,6 @@ footer {
 
 /* Estilos para el menú en el pie de página */
 .menu {
-    display: flex;
     justify-content: center;
     letter-spacing: 10px; 
     font-size: 25px;
