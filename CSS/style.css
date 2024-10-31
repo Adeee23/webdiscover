@@ -262,6 +262,5 @@ button[type="reset"]:hover {
 @media (max-width: 600px) {
     .opacity div {
       font-size: 1rem; 
-      padding: 5px 10px; 
     }
 }
