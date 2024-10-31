@@ -257,3 +257,11 @@ button[type="reset"]:hover {
     color: wheat;
     font-size: 25px;
   }
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .opacity div {
+      font-size: 1rem; 
+      padding: 5px 10px; 
+    }
+}
