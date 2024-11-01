@@ -64,7 +64,7 @@ h1 {
 /*Estilos para título about*/
 .about h2 {
     margin-top: 10px;
-    color: rgb(13, 110, 253, 1);
+    color: black;
     text-align: center;
 }
 /* Estilos para la clase 'imagenes' */
