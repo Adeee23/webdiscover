@@ -259,3 +259,9 @@ button[type="reset"]:hover {
       font-size: 1rem; 
     }
 }
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    #carouselExample {
+      display: none;
+    }
+}
