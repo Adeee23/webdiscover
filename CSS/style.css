@@ -40,16 +40,6 @@ h1 {
     position: fixed;
     padding-top: 30px;
 }
-
-/* Estilos para el título en la sección 'viaja' */
-#viaja h2 {
-    background-color: rgba(79, 136, 158, 0.842);
-    color: black;
-    padding: 15px;
-    text-align: center;
-    margin-top: 30px;
-}
-
 /* Estilos para los títulos en contenedores */
 .container h2 {
     color: black;
@@ -64,14 +54,19 @@ h1 {
     text-align: center;
 }
 
-/* Estilos para el título en la sección carrusel */
-.carrusel h2 {
-    background-color: rgba(79, 136, 158, 0.842);
-    color: black;
-    padding: 15px;
-    text-align: center;
+/*Estilos para carrusel de imágenes*/
+#carouselExample {
+    top: 15px;
+    margin-left: 25%;
+    width: 50%;
 }
 
+/*Estilos para título about*/
+.about h2 {
+    margin-top: 10px;
+    color: rgb(13, 110, 253, 1);
+    text-align: center;
+}
 /* Estilos para la clase 'imagenes' */
 .imagenes {
     padding-top: 16px;
