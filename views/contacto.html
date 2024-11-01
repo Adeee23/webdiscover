@@ -63,8 +63,18 @@
         </div>
       </nav>
     </header>
+      <!-- IMAGEN DE ENCABEZADO -->
+  <div class="imagen-e d-flex justify-content-center my-4">
+    <img src="/assets/7.jpg" class="img-fluid d-none d-md-block" width="900" height="900" alt="Encabezado de la página">
+  </div>
+  <div class="contacto">
+  <h2>Contacto</h2>
+</div>
     <main>
       <!--SECCIÓN DE FORMULARIO DE PRESUPUESTO-->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-6">
       <section class="formulario">
         <h2>Formulario de contacto</h2>
         <!--CAMPO DE ENTRADA PARA EL NOMBRE-->
@@ -131,9 +141,9 @@
           </div>
         </form>
       </section>
+    </div>
       <!--MAPA-->
-      <div class="container my-5">
-        <h2 class="text-center">¿DÓNDE ESTAMOS?</h2>
+      <div class="col-md-6">
         <div id="mapa"></div>
         <!--UBICACIÓN CLIENTE-->
         <div class="ruta row g-2 align-items-center justify-content-center">
@@ -146,6 +156,8 @@
           <button onclick="calcularRuta()">Calcular Ruta</button>
         </div>
       </div>
+    </div>
+  </div>
     </main>
     <!--FOOTER-->
     <footer>
