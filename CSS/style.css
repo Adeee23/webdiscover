@@ -63,10 +63,15 @@ h1 {
 
 /*Estilos para título about*/
 .about h2 {
-    margin-top: 10px;
+    margin-top: 20px;
     color: black;
     text-align: center;
 }
+
+.about p {
+    text-align: center;
+}
+
 /* Estilos para la clase 'imagenes' */
 .imagenes {
     padding-top: 16px;
